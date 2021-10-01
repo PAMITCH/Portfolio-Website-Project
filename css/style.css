@@ -3,12 +3,6 @@ nav.primary-navbar {
 	padding: 2rem;
 }
 
-nav.primary-navbar img.src {
-	width: 278px;
-	height: 278px;
-	padding: 0px  auto 60px ;
-}
-
 nav.primary-navbar ul.nav {
 	display: flex;
 	list-style: none;
@@ -22,5 +16,5 @@ nav.primary-navbar ul.nav li a {
 section.typography {
 	width: 100vw;
 	height: 100vh;
-	background: green;
+	background: #D3F0DA;
 }
