@@ -1,0 +1,26 @@
+nav.primary-navbar {
+	display: flex;
+	padding: 2rem;
+}
+
+nav.primary-navbar img.src {
+	width: 278px;
+	height: 278px;
+	padding: 0px  auto 60px ;
+}
+
+nav.primary-navbar ul.nav {
+	display: flex;
+	list-style: none;
+	padding: 0;
+}
+
+nav.primary-navbar ul.nav li a {
+	padding: 2rem 0.5rem;
+}
+
+section.typography {
+	width: 100vw;
+	height: 100vh;
+	background: green;
+}
