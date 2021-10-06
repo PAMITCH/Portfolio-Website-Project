@@ -43,8 +43,8 @@ nav.primary-navbar ul.nav li a {
 }
 
 section.typography {
-	width: 100vw;
-	height: 100vh;
+	width: 90.75rem auto; 
+	height: 56.063rem auto; 
 	background: #D3F0DA;
 	text-align: center;
 	display: flex;
@@ -79,9 +79,6 @@ section.typography p {
 	font-family: 'Baloo 2', cursive;
 	font-size: 0.875rem;
 	font-weight: bold;
-	width: 1045px;
-	height: 268px;
-	margin: 0;
 	color: black;
 }
 
@@ -90,5 +87,11 @@ footer.primary-footer {
 	width: 1440px auto;
 	height: 127px;
 	background: #FE5481;
+
+}
+
+footer.primary-footer img {
+    width: 278px;
+	height: 278px;
 
 }
