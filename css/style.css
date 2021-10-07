@@ -3,6 +3,7 @@
  
 body {
 	font-family: 'Baloo 2', cursive;
+	background: #D3F0DA;
 }
 
 
@@ -43,9 +44,8 @@ nav.primary-navbar ul.nav li a {
 }
 
 section.typography {
-	width: 90.75rem auto; 
-	height: 56.063rem auto; 
-	background: #D3F0DA;
+	width: 30rem; 
+	margin: 5rem auto; 
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -91,7 +91,7 @@ footer.primary-footer {
 }
 
 footer.primary-footer img {
-    width: 278px;
-	height: 278px;
+    
+	height: 50px;
 
 }
