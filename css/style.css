@@ -1,48 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Atma&family=Baloo+2:wght@600&display=swap');
  
+ /*BODY SECTION*/
 body {
 	font-family: 'Baloo 2', cursive;
 	background: #D3F0DA;
 }
 
+img {
+	,max-width: 100%;
+}
 
+
+/*NAV SECTION*/
 nav.primary-navbar {
-	display: flex;
-	width: 1440px auto;
+	width: auto;
 	height: 127px;
 	background: #FE5481;
 }
 
-nav.primary-navbar header h1 {
-	font-family: 'Atma', cursive;
-	text-align: center;
+@media screen and (min-width: 480px) {
+	nav.primary-navbar{
 	display: flex;
-	flex-direction: column;
-	align-items: left;
-	justify-content: left;
-	color: #633E26;
+	margin-top: auto;
+    }
 }
+
+
+nav.primary-navbar-home{
+	position: relative;
+	z-index: 10;
+}
+
+nav.primary-navbar-about{
+	position: relative;
+	z-index: 10;
+}
+
+nav.primary-navbar-contact {
+	position: relative;
+	z-index: 10;
+}
+
+nav.primary-navbar-prices{
+
+}
+
 
 nav.primary-navbar img{
 	width: 278px;
 	height: 278px;
+	padding: 2rem;
+
 }
 
 nav.primary-navbar ul.nav {
 	display: flex;
 	list-style: none;
-	padding: 0;
+	padding: 2rem;
+	margin-left: auto;
+
 }
 
+
 nav.primary-navbar ul.nav li a {
-	padding: 2rem 0.5rem;
+	padding: 0.5rem 0.5rem;
 	font-family: 'Atma', cursive;
 	text-decoration: none;
 	background: #FE5481;
 	color: #39122E;
 }
 
+@media screen and (min-width: 480px) {
+	nav.primary-navbar ul.nav li a{
+	padding: 2rem 0.5rem;
+	}
+
+
+
+/*TYPOGRAPHY SECTION*/
 section.typography {
 	width: 30rem; 
 	margin: 5rem auto; 
@@ -65,6 +101,7 @@ section.typography h2 {
 	font-weight: bold;
 	margin: 0;
 	color: #FE5481;
+	text-shadow: 5px -2px 2px #633E26;
 }
 
 section.typography h3 {
@@ -106,6 +143,7 @@ section.contact-socials{
 	background: white;
 }
 
+/*FOOTER SECTION*/
 footer.primary-footer {
 	display: flex;
 	width: 1440px auto;
@@ -115,7 +153,6 @@ footer.primary-footer {
 }
 
 footer.primary-footer img {
-    
 	height: 50px;
 
 }
