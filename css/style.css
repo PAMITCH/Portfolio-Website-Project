@@ -43,7 +43,8 @@ nav.primary-navbar-contact {
 }
 
 nav.primary-navbar-prices{
-
+    position: relative;
+	z-index: 10;
 }
 
 
@@ -112,11 +113,19 @@ section.typography h3 {
 	color: black;
 }
 
-section.typography p {
+section.welcome-text {
+	width: 30rem; 
+	margin: 5rem auto; 
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	font-family: 'Baloo 2', cursive;
 	font-size: 0.875rem;
 	font-weight: bold;
 	color: black;
+	background: white;
 
 }
 
@@ -142,6 +151,53 @@ section.contact-socials{
 	justify-content: center;
 	background: white;
 }
+
+section.photo-gallery {
+	padding: 3rem;
+}
+
+section.photo-gallery ul{
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;	
+}
+
+section.photo-gallery ul li{
+	width: calc(33% - 3rem);
+	padding: 1rem;
+}
+
+section.photo-gallery img{
+    width: 105%;
+	height: auto;
+	
+}
+
+section.prices-images{
+	width: 0.5rem;
+	margin: 5rem auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+		
+}
+
+section.prices-images ul{
+	list-style: none;
+}
+section.prices-images img{
+	width: auto;
+	height: 31.25rem;
+	margin: 0.625rem;
+}
+
+
+
+
+
+
 
 /*FOOTER SECTION*/
 footer.primary-footer {
