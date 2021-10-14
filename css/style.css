@@ -8,7 +8,13 @@ body {
 }
 
 img {
-	,max-width: 100%;
+	max-width: 95%;
+}
+
+@media screen and (min-width: 480px) {
+	img {
+	max-width: 100%;
+    }
 }
 
 
@@ -49,16 +55,23 @@ nav.primary-navbar-prices{
 
 
 nav.primary-navbar img{
-	width: 278px;
-	height: 278px;
+	width: 100px;
+	
 	padding: 2rem;
+
+}
+
+@media screen and (min-width: 480px) {
+     nav.primary-navbar img{
+     width: 278px;
+		
+     }
 
 }
 
 nav.primary-navbar ul.nav {
 	display: flex;
 	list-style: none;
-	padding: 2rem;
 	margin-left: auto;
 
 }
@@ -76,18 +89,23 @@ nav.primary-navbar ul.nav li a {
 	nav.primary-navbar ul.nav li a{
 	padding: 2rem 0.5rem;
 	}
-
+}
 
 
 /*TYPOGRAPHY SECTION*/
 section.typography {
-	width: 30rem; 
 	margin: 5rem auto; 
 	text-align: center;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+}
+
+@media screen and (min-width: 480px) {
+    section.typography {
+	width: 30rem;
+	} 
 }
 
 section.typography img {
@@ -114,7 +132,6 @@ section.typography h3 {
 }
 
 section.welcome-text {
-	width: 30rem; 
 	margin: 5rem auto; 
 	text-align: center;
 	display: flex;
@@ -129,8 +146,13 @@ section.welcome-text {
 
 }
 
+@media screen and (min-width: 480px) {
+    section.welcome-text {
+	width: 30rem;
+	} 
+}
+
 section.about-text {
-	width: 50rem;
 	margin: 5rem auto;
 	text-align: center;
 	display: flex;
@@ -140,9 +162,14 @@ section.about-text {
 	background: white;
 
 }
+
+@media screen and (min-width: 480px) {
+    section.about-text {
+	width: 50rem;
+    }
+}
  
 section.contact-socials{
-	width: 30rem;
 	margin: 5rem auto;
 	text-align: center;
 	display: flex;
@@ -150,6 +177,13 @@ section.contact-socials{
 	align-items: center;
 	justify-content: center;
 	background: white;
+}
+
+
+@media screen and (min-width: 480px) {
+	section.contact-socials{
+	width: 30rem;
+    }
 }
 
 section.photo-gallery {
@@ -157,16 +191,30 @@ section.photo-gallery {
 }
 
 section.photo-gallery ul{
-	display: flex;
-	flex-wrap: wrap;
 	list-style: none;
 	padding: 0;	
 }
 
+@media screen and (min-width: 480px){
+    section.photo-gallery ul{
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;	
+    }
+}
+
 section.photo-gallery ul li{
+	}
+
+@media screen and (min-width: 480px) {
+    section.photo-gallery ul li{
 	width: calc(33% - 3rem);
 	padding: 1rem;
+    }
 }
+
+
 
 section.photo-gallery img{
     width: 105%;
@@ -175,7 +223,6 @@ section.photo-gallery img{
 }
 
 section.prices-images{
-	width: 0.5rem;
 	margin: 5rem auto;
 	display: flex;
 	flex-direction: column;
@@ -189,8 +236,14 @@ section.prices-images ul{
 }
 section.prices-images img{
 	width: auto;
+	
+}
+
+@media screen and (min-width: 480px) {
+section.prices-images img{
 	height: 31.25rem;
 	margin: 0.625rem;
+    }
 }
 
 
