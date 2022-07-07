@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Atma&family=Baloo+2:wght@600&display=swap');
+
  
  /*BODY SECTION*/
 body {
+	overflow: hidden;
 	font-family: 'Baloo 2', cursive;
-	background: #7c6c5e;
+	background: #8d7768;
 }
 
 img {
@@ -18,78 +18,57 @@ img {
 }
 
 
-/*NAV SECTION*/
-nav.primary-navbar {
+/*HEADER SECTION*/
+header.main-header {
+	overflow: hidden;
 	width: auto;
-	height: 127px;
-	background: #FE5481;
+	height: 95px;
+	background: #38030c;
 }
 
 @media screen and (min-width: 480px) {
-	nav.primary-navbar{
-	display: flex;
-	margin-top: auto;
+	header.main-header{
+	width: auto;
+	text-decoration: none;
+    }
+}
+/*header block ends*/
+ 
+
+/*navigation img link*/
+nav.main-nav-link{
+	width:90px;
+	height:auto;
+}
+nav.main-nav-link img{
+	width: 90px;
+	height: 95px;
+	padding: 0;	
+}
+
+@media screen and (min-width: 480px) {
+	nav.main-nav-link{
+		width: 100px;	
+		height: 95px;
+	   }
+	nav.main-nav-link img{
+     width: 100px;	
+	 height: 95px;
     }
 }
 
 
-nav.primary-navbar-home{
-	position: relative;
-	z-index: 10;
+/*navigation header menu*/
+nav.primary-header-links {
+	overflow: hidden;
+		position: relative;
+		left: 555px;
+		margin-top: 45px;
+		padding: 10px;
+		font-size: 17px;
+		display: flex;
 }
 
-nav.primary-navbar-about{
-	position: relative;
-	z-index: 10;
-}
-
-nav.primary-navbar-contact {
-	position: relative;
-	z-index: 10;
-}
-
-nav.primary-navbar-prices{
-    position: relative;
-	z-index: 10;
-}
-
-
-nav.primary-navbar img{
-	width: 100px;
-	
-	padding: 2rem;
-
-}
-
-@media screen and (min-width: 480px) {
-     nav.primary-navbar img{
-     width: 278px;
-		
-     }
-
-}
-
-nav.primary-navbar ul.nav {
-	display: flex;
-	list-style: none;
-	margin-left: auto;
-
-}
-
-
-nav.primary-navbar ul.nav li a {
-	padding: 0.5rem 0.5rem;
-	font-family: 'Atma', cursive;
-	text-decoration: none;
-	background: #FE5481;
-	color: #39122E;
-}
-
-@media screen and (min-width: 480px) {
-	nav.primary-navbar ul.nav li a{
-	padding: 2rem 0.5rem;
-	}
-}
 
 
 /*TYPOGRAPHY SECTION*/
@@ -204,8 +183,7 @@ section.photo-gallery ul{
     }
 }
 
-section.photo-gallery ul li{
-	}
+
 
 @media screen and (min-width: 480px) {
     section.photo-gallery ul li{
@@ -255,7 +233,7 @@ section.prices-images img{
 /*FOOTER SECTION*/
 footer.primary-footer {
 	display: flex;
-	width: 1440px auto;
+	width: auto;
 	height: 127px;
 	background: #FE5481;
 
