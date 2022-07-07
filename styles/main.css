@@ -61,12 +61,11 @@ nav.main-nav-link img{
 /*navigation header menu*/
 nav.primary-header-links {
 	overflow: hidden;
-		position: relative;
-		left: 555px;
-		margin-top: 45px;
-		padding: 10px;
-		font-size: 17px;
-		display: flex;
+	position: relative;
+	width: 439px;
+	height: 95px;
+	margin-left: 100px;
+	bottom: 95px;
 }
 
 
